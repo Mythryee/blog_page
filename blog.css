@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    display:flex;
+    justify-content: space-around;
+}
+#navbar .ullist{
+    display:flex;
+    width:1000px;
+    justify-content: space-between;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    color:white;
+    font-size: 24px;
+    font-weight: bolder;
+}
+#navbar::before{
+    background: url('course.jpg')no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top:0px;
+    bottom:0px;
+    opacity:1;
+}
+#home{
+    display:flex;
+    justify-content:end;
+    height:91vh;
+}
+.homebox{
+    margin-top:90px;
+    display:flex;
+    width:700px;
+    height: 300px;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    font-size: 18px;
+    color:white;
+}
+#home h1{
+    font-size: 40px;
+}
+
+#home button{
+    margin:40px;
+    width:200px;
+    height:30px;
+    border-radius: 5px;
+    background-color: white;
+    color:black;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#course{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+#course h1{
+    font-size:40px;
+}
+.coursebox{
+    display: flex;
+}
+.box{
+    border:8px solid;
+    margin:10px;
+    border-radius: 15px;
+}
+#contact{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#contact h1{
+    font-size:40px;
+}
+.contactbox {
+    display:flex;
+    flex-direction: column;
+    width:500px;
+}
+
+.contactbox input{
+    height:35px;
+    margin:5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* #footer{
+    background-color: black;
+    color:white;
+    bottom:0px;
+    margin: 0px;
+    padding:0px;
+    text-align: center;
+} */
+#footer {
+    background-color: black;
+    color: white;
+    margin: 0; 
+    padding: 1px 0; 
+    text-align: center;
+    color:white;
+}
+.grade{
+    background: linear-gradient(to bottom, darkblue 30%, rgba(0, 0, 0, 0.812) 50%);
+    color:white;
+}
